@@ -1,0 +1,32 @@
+.ban{
+  margin-left: 23vw;
+  margin-bottom: 8vh; 
+}
+
+.titre{
+  text-align: center;
+}
+
+.titre2{
+  text-align: center;
+}
+
+.texteAcc{
+  text-align: center;
+}
+
+.titre3{
+  text-align: center;
+  margin-top:4vh;
+  margin-bottom: 4vh;
+}
+
+.chat{
+  width: 35vw;
+  height: auto;
+}
+
+.titreInfo{
+  text-align: center;
+  margin-bottom: 3vh;
+}
