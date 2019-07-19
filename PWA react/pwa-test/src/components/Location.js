@@ -20,7 +20,7 @@ Renseignements au 081/43.43.94 ou au 0495/47.56.19 (Bernard Evrard)</p>
             </div>
 
             <div className="col-md-6">
-            <img className="chat" src={chateaux} alt="" />
+            <img className="chat" src={chateaux} className="img-fluid" />
             </div>
 
           </div>

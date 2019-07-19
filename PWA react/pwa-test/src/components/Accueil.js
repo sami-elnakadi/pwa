@@ -5,16 +5,16 @@ export default class Accueil extends Component {
     render() {
       return (
         <section className="Accueil">
-          <img className="ban" src={banner} alt="" />
-
-          <div className="col-md-12">
-            <h1 className="titre">Bienvenue !</h1>
-            <h2 className="titre2">L'A.S.B.L. Sports Vacances vous souhaite la bienvenue.</h2>
-            <p>Depuis le début de l'organisation de nos stages nous travaillons en étroite collaboration avec la Commune de Profondeville.
-              L'association aura le souci de promouvoir davantage les disciplines sportives, d'ateliers d'éveil, artistiques et récréatifs, dans des infrastructures adéquates, avec des moniteurs diplômés de notre commune.
-            </p>
-            <p className="texteAcc">Les inscriptions pour les stages d'été sont ouvertes !
-                Les attestations de fréquentation pour les stages 2018 destinés à votre déclaration fiscale sont en cours d'envoi. Vous devriez les recevoir dans les prochains jours.</p>
+          <img src={banner} className="img-fluid" />
+          <div className="acc">
+            <div className="col-md-12">
+              <h2 className="titre2">L'A.S.B.L. Sports Vacances vous souhaite la bienvenue.</h2>
+              <p>Depuis le début de l'organisation de nos stages nous travaillons en étroite collaboration avec la Commune de Profondeville.
+                L'association aura le souci de promouvoir davantage les disciplines sportives, d'ateliers d'éveil, artistiques et récréatifs, dans des infrastructures adéquates, avec des moniteurs diplômés de notre commune.
+              </p>
+              <p className="texteAcc">Les inscriptions pour les stages d'été sont ouvertes !
+                  Les attestations de fréquentation pour les stages 2018 destinés à votre déclaration fiscale sont en cours d'envoi. Vous devriez les recevoir dans les prochains jours.</p>
+            </div>
           </div>
         </section>
       );
